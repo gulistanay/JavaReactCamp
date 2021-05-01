@@ -2,7 +2,7 @@
 > Gülistan Ay
 > > [LinkedIn](https://www.linkedin.com/in/gulistanayy/)
 
-Bu repository içerisinde: Engin Demiroğ'un Java+React kampında derste yaptığı çalışmalar
+Bu repository içerisinde: Engin Demiroğ Hoca'nın Java+React kampında derste yaptırdığı çalışmalar
 ve
 verilen ödevlere ait çözümlerim yer alıyor.
 
