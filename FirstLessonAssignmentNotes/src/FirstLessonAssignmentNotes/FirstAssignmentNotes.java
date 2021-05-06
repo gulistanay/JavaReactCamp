@@ -1,7 +1,5 @@
 package FirstLessonAssignmentNotes;
 
-import java.util.Iterator;
-
 public class FirstAssignmentNotes {
 
 	public static void main(String[] args) {
