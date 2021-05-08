@@ -1,8 +1,6 @@
 package thirdLessonAssignment;
 
 public class Instructor extends User{
-	private int id;
-	private int userId;
 	private String firstName;
 	private String lastName;
 	private String password;
@@ -10,32 +8,15 @@ public class Instructor extends User{
 	
 	public Instructor() {}
 
-	public Instructor(int id, int userId, String firstName, String lastName, String password, String description) {
+	public Instructor(String firstName, String lastName, String password, String description) {
 		this();
-		this.id = id;
-		this.userId = userId;
+
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.password = password;
 		this.description = description;
 	}
 	
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public int getUserId() {
-		return userId;
-	}
-
-	public void setUserId(int userId) {
-		this.userId = userId;
-	}
 
 	public String getFirstName() {
 		return firstName;
