@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer(1, "Gülistan", "Ay", LocalDate.of(2000, 9, 14), "111"));
+		customerManager.save(new Customer(1, "Gülistan", "Ay", LocalDate.of(2000, 9, 14), "11111111111"));
 		System.out.println();
 		
 	}
