@@ -1,10 +1,19 @@
 package fourthLessonAssignment;
 
+import java.time.LocalDate;
+
+import Abstract.BaseCustomerManager;
+import Adapters.MernisServiceAdapter;
+import Concrete.StarbucksCustomerManager;
+import Entities.Customer;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
+		customerManager.save(new Customer(1, "Gülistan", "Ay", LocalDate.of(2000, 9, 14), "111"));
+		System.out.println();
+		
 	}
 
 }
