@@ -6,4 +6,4 @@ Senaryo: Kahve dükkanları için müşteri yönetimi yapan bir sistem yazmak is
 * Starbucks müşterileri kaydederken, mutlaka Mernis doğrulaması istiyor. 
 * Nero firması herhangi bir kullanıcı doğrulaması talep etmiyor.
 * Bunları içeren bir projenin JAVA dilinde senaryo edilmesi ve oluşturulması planlanmaktadır.
-* MERNİS ( Kimlik Doğrulama Servisi ) 
+* MERNIS ( Kimlik Doğrulama Servisi ) 
