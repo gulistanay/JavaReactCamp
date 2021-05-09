@@ -1,4 +1,4 @@
-# Coffee Sales Management
+# Coffee Sales Management - Kahve Dükkanları için Müşteri Yönetim Sistemi
 
 Senaryo: Kahve dükkanları için müşteri yönetimi yapan bir sistem yazmak istiyoruz. Starbucks ve Nero firması için çalışıyoruz. 
 
