@@ -20,10 +20,10 @@ public class MernisServiceAdapter implements CustomerCheckService{
 					customer.getFirstName().toUpperCase() , 
 					customer.getLastName().toUpperCase(),
 					customer.getDateOfBirth().getYear());
-	}
-	catch (Exception e) {
-		System.out.println("Not a valid person");
-	}
-	return serviceResult;
+		}
+		catch (Exception e) {
+			System.out.println("Not a valid person");
+		}
+		return serviceResult;
 	}
 }
